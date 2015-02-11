@@ -1,0 +1,23 @@
+{
+  "name": "async_testing_vanilla_node",
+  "version": "0.0.1",
+  "description": "Testing async http server with chaihttp",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Jake Barnett <mrjbarnett@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-http": "^1.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "mocha": "^2.1.0"
+  }
+}
